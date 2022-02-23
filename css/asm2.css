@@ -1,0 +1,89 @@
+
+ 
+ 
+ 
+ .main{width: 83.3%; height: 900px;
+   background-color: aquamarine;
+   margin: 0px; padding: 0px;}
+header{ width: 100%; height: auto;
+   background-color: rgb(192, 114, 192);}
+nav{ width: 100%; height: 60px;
+background-color: rgb(216, 112, 147);}
+article{ width: 80%; height: 400px;
+background-color: rgb(253, 182, 194);
+float:left}
+aside{ width: 20%; height: 400px;
+background-color: white ;
+float: left;}
+footer{width: 100%; height:auto;
+background-color: rgb(231, 197, 135);
+clear: both;}
+/* hình header, footer, aside*/
+img{ width: 100%; height: auto;}
+/* css cho header, footer, aside */
+/* css cho menu ngang */
+
+.menu ul{
+  list-style-type: none  ;
+  text-align: center;
+  padding: 0px;
+   margin: 0px;
+}
+.menu ul li{
+  background-color: rgb(216, 112, 147);
+  display: inline-table;
+  position: relative;
+  width: 120px;
+  height: 40px ;
+  line-height: 40px ;
+}
+.menu ul li a{
+text-decoration: none ;
+display: block;
+}
+.menu ul li a:hover {
+color:  rgb(216, 112, 147);
+background-color: rgb(252, 230, 247)  ;
+} 
+.menu ul li > .sub_menu{
+display: none ;
+position:absolute
+}
+.menu ul li:hover .sub_menu {
+display: block;
+
+}
+.column{
+   width:16%;
+   float:left;margin: 0px 10px;
+
+}
+.sp{
+   border-radius: 10px ;
+   box-shadow: 0 0 5px gray ;
+   padding: 10px ;
+   text-align: center;
+
+}
+.sp.ten{
+   font-size:larger  ;
+   font-variant: small-caps;
+   color:rgb(161, 73, 90);
+   max-width: 100px;
+   height: 100px;
+   margin: 100px;
+}
+.sp.img{
+   max-width: 95%;
+}
+.sp.gia {
+  color: rgb(212, 36, 36);
+  font-size:larger ;
+  font-weight: bold;
+}
+.sp.gia del{
+  color:lightslategrey;
+}
+.column .sp:hover{
+  transform: scale(1.1);
+}
